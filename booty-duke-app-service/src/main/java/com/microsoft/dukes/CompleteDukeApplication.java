@@ -9,7 +9,7 @@ import jakarta.ws.rs.core.Application;
 public class CompleteDukeApplication extends Application {
 
     public static void main(String[] args) throws InterruptedException {
-
+        int i=0;
         Application app = new CompleteDukeApplication();
         SeBootstrap.Configuration config = SeBootstrap.Configuration.builder()
                 .rootPath("")
